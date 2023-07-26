@@ -22,8 +22,8 @@ header {
     display: block;
     margin: 2rem auto;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 175px;
 }
 
 #about, #research {
@@ -45,4 +45,19 @@ ul {
 
 li {
     margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile {
+    width: 40%;
+}
+
+.description {
+    width: 50%;
 }
