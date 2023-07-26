@@ -18,13 +18,14 @@ header {
     padding: 1rem 0;
 }
 
-#profilePic {
-    display: block;
-    margin: 2rem auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 175px;
+.profile-pic {
+    border-radius: 50%;   /* This makes the image circular */
+    width: 150px;         /* Set the width to your desired size */
+    height: 150px;        /* Set the height to your desired size */
+    display: block;       /* To ensure it takes up the entire space */
+    margin: 0 auto;       /* To center it */
 }
+
 
 #about, #research {
     margin: 2rem;
