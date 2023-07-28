@@ -106,14 +106,13 @@ section {
 section::before {
     content: attr(data-name);
     position: absolute;
-    left: 0;
+    left: -200px; /* Adjust this value depending on the distance you want from the main content */
     top: 50%;
-    transform: translateY(-50%) rotate(-90deg);
-    transform-origin: left center;
+    transform: translateY(-50%);  /* To vertically center the text */
     font-size: 2rem;  /* Adjust size as needed */
     font-weight: bold;
-    margin-left: -50px;  /* Adjust distance from content */
 }
+
 
 
 
@@ -136,6 +135,6 @@ section::before {
 .wrapper {
     margin: 0 auto;
     max-width: 1200px; 
-    padding: 0 80px;
+    padding: 0 80px 0 300px;  /* Adjusting the left padding */
 }
 
