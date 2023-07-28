@@ -76,7 +76,7 @@ nav a:hover {
     width: 50%;
 }
 
-#about, #research {
+#about, #cv ,#research {
     margin: 2rem;
     padding: 1rem;
     background-color: #fff;
@@ -115,11 +115,19 @@ section::before {
 
 
 #about {
+    margin-top: 80px; /* adjust based on the exact height of your nav */
+    margin-bottom: 2rem;
+    padding: 1rem;
     background-color: #f9f9f9;
 }
 
-#research {
+
+#cv {
     background-color: #e9e9e9;
+}
+
+#research {
+    background-color: #f9f9f9;
 }
 
 .wrapper {
@@ -128,9 +136,3 @@ section::before {
     padding: 0 80px;
 }
 
-#about {
-    margin-top: 80px; /* adjust based on the exact height of your nav */
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #f9f9f9;
-}
