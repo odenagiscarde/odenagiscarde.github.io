@@ -99,7 +99,9 @@ li {
 
 section {
     padding: 100px 0;
+    position: relative;  /* Add this */
 }
+
 
 section::before {
     content: attr(data-name);
@@ -112,6 +114,7 @@ section::before {
     font-weight: bold;
     margin-left: -50px;  /* Adjust distance from content */
 }
+
 
 
 #about {
