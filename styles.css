@@ -47,8 +47,8 @@ nav a:hover {
 
 .profile-pic {
     border-radius: 50%;
-    width: 180px;
-    height: 150px;
+    width: 190px;
+    height: 175px;
     display: block;
     margin: 0 auto;
 }
@@ -104,5 +104,6 @@ section {
 .wrapper {
     margin: 0 auto;
     max-width: 1100px; 
-    padding: 0 200px;
+    padding: 0 100px;
+    padding-top: 80px;  /* this is an approximate value; adjust as needed */
 }
