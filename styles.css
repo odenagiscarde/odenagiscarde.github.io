@@ -9,6 +9,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    min-width: 320px; /* This is generally the smallest screen size you'll design for */
 }
 
 nav {
@@ -136,44 +137,37 @@ section::before {
 }
 
 .wrapper {
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 80px 0 150px; /* Adjust the left padding as needed */
+    min-width: 320px; /* This will prevent the wrapper from shrinking too small */
 }
 
 /* Optionally, you can adjust the padding for smaller screens using a media query if necessary */
-@media screen and (max-width: 768px) {
-    section {
-        padding: 50px 20px; /* Add padding and reduce the left-padding */
-    }
-
-    section::before {
-        font-size: 1.5rem; /* Reduce the font size for small screens */
-        left: 5%; /* Adjust the title to be closer to the content on small screens */
-        position: relative; /* Stack the title above the content */
-        top: -30px; /* Adjust this value as needed */
-        transform: translateY(0); /* No need to center on small screens */
-    }
-
-    .wrapper {
-        padding: 0 15px; /* Reduce overall padding for small screens */
-    }
-
-    /* Adjust other elements as necessary for small screens */
-    .nav-links, .profile, .description {
-        /* You might need to stack these or adjust their widths on small screens */
+@media screen and (max-width: 320px) {
+    /* Stack elements vertically */
+    .container, .nav-links, .profile, .description {
         flex-direction: column;
-        width: 100%; /* Stack elements vertically */
+        align-items: center;
     }
 
-    .profile-pic {
-        width: 120px; /* Adjust image size for smaller screens */
-        height: 120px;
-        margin-top: 20px; /* Add some space above the image */
+    /* Adjust padding and margins */
+    .wrapper, section, nav, .profile-pic, .container {
+        padding: 10px;
+        margin: 10px;
     }
 
+    /* Adjust font sizes */
+    h1, h2, h3, p, a {
+        font-size: smaller; /* or a specific px size */
+    }
+
+    /* Adjust the nav-bar */
     nav {
         flex-direction: column;
+    }
+
+    /* Make sure images scale properly */
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
