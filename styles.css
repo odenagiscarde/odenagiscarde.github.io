@@ -54,14 +54,12 @@ nav a:hover {
 }
 
 .profile-pic {
-    border-radius: 50%;
-    width: 190px; /* Set the width you want */
-    height: 190px; /* Make height equal to the width to form a perfect circle */
+    border-radius: 50%;  /* This makes it round */
+    width: 190px;        /* Set the width you want */
+    height: 190px;       /* Make height equal to the width to form a perfect circle */
     display: block;
     margin: 0 auto;
-    background-size: cover; /* Cover ensures that the image fully covers the space, may be cropped */
-    background-position: center; /* Center the image within the element */
-    border: 2px solid #ffffff; /* Optional: if you want a white border */
+    object-fit: cover;   /* This will cover the area without stretching the picture */
 }
 
 .container {
