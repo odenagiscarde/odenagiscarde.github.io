@@ -99,42 +99,27 @@ li {
 }
 
 section {
-    padding: 100px 0;
-    position: relative; /* Retain this for absolute positioning inside */
+    padding: 100px 0 100px 10%; /* Add padding-left here */
+    position: relative;
 }
 
 section::before {
     content: attr(data-name);
     position: absolute;
-    /* Instead of positioning from the left, we'll center it with transform */
-    left: 50%; /* Start at the center of the section */
+    left: 50%; /* Center the title */
     top: 50%;
-    /* This will center the title both horizontally and vertically */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Centering adjustment */
     font-size: 2rem;
     font-weight: bold;
-    color: #333; /* Or any color you want for the title */
-    /* Ensure the title does not overlap the content */
-    padding-right: 100%; /* Push content to the right; adjust as needed */
-    box-sizing: border-box;
-    text-align: right; /* Align the text to the right side of the box */
-    white-space: nowrap; /* Prevent the title from wrapping */
+    color: #333; /* Or any color you prefer */
+    z-index: -1; /* Ensures it goes behind the content */
 }
 
-
-/* ... media queries ... */
-
-@media only screen and (max-width: 768px) {
-    section::before {
-        /* On smaller screens, we move the title back to the traditional position */
-        left: 0;
-        top: 0;
-        transform: none;
-        text-align: left;
-        padding-right: 0;
-        padding-left: 20px; /* Give some space from the left edge */
+/* Optionally, you can adjust the padding for smaller screens using a media query if necessary */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 50px 0 50px 20%; /* Increase left padding for smaller screens */
     }
-    /* ... other responsive adjustments ... */
 }
 
 
