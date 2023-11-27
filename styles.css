@@ -67,16 +67,23 @@ nav a:hover {
     border-radius: 5px;
 }
 
-section::before {
-    content: attr(data-name);
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
+section {
+    display: flex;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.section-title {
+    width: 20%; /* Adjust the width as needed */
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    text-align: right; /* Align the section title to the right */
+    margin-right: 2rem; /* Spacing between title and content */
 }
+
+.section-content {
+    width: 80%; /* Adjust the width as needed */
+}
+
 
 .wrapper {
     min-width: 320px;
@@ -108,3 +115,15 @@ section::before {
 }
 
 
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .section-title, .section-content {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .section-title {
+        margin-bottom: 20px; /* Spacing between title and content on small screens */
+    }
+}
