@@ -63,6 +63,9 @@ nav a:hover {
     background-size: cover; /* Cover ensures that the image fully covers the space, may be cropped */
     background-position: center; /* Center the image within the element */
     border: 2px solid #ffffff; /* Optional: if you want a white border */
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+
 }
 
 .container {
@@ -73,7 +76,8 @@ nav a:hover {
 }
 
 .profile {
-    width: 40%;
+    text-align: center;
+    padding: 20px;
 }
 
 .description {
@@ -88,9 +92,13 @@ nav a:hover {
 }
 
 h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #666;
 }
 
 ul {
