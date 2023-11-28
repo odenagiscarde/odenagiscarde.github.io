@@ -68,17 +68,15 @@ nav a:hover {
 }
 
 section {
-    display: flex;
     padding: 50px 0; /* Adjust padding as needed */
 }
 
 .section-title {
-    width: 20%; /* Adjust the width as needed */
     font-size: 2rem;
     font-weight: bold;
-    text-align: right; /* Align the section title to the right */
     margin-bottom: 20px; /* Spacing between title and profile */
 }
+
 
 .section-content {
     width: 80%; /* Adjust the width as needed */
