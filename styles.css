@@ -1,4 +1,4 @@
-/* General styles */
+/* Reset some default browser styles */
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
@@ -52,6 +52,7 @@ nav a:hover {
 
 /* Section styles */
 .section {
+    display: flex;
     margin: 2rem;
     padding: 1rem;
     background-color: #fff;
@@ -61,44 +62,25 @@ nav a:hover {
 .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.section-body {
-    display: flex;
-    align-items: flex-start;
-}
-
-.profile {
-    flex: 0 0 20%; /* Adjust width as needed */
-    text-align: center;
-    padding: 20px;
+    width: 20%; /* Adjust as needed */
+    padding-right: 20px; /* Spacing between title and content */
+    text-align: right; /* Aligns the text to the right of the title area */
 }
 
 .section-content {
-    flex: 1;
-    padding: 20px;
-}
-
-/* Specific styles for the About section */
-#about .section-body {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#about .profile, #about .description {
-    width: 100%;
+    width: 80%; /* Adjust as needed */
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .section-body {
+    .section {
         flex-direction: column;
-        align-items: center;
     }
 
-    .profile, .section-content {
+    .section-title, .section-content {
         width: 100%;
+        text-align: left;
     }
 }
 
+/* Add other styles as previously defined */
