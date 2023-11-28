@@ -60,18 +60,13 @@ nav a:hover {
 }
 
 .profile, .right-side {
-    width: 50%; /* Adjust as needed */
+    width: 50%; /* Adjust this to change the split ratio */
+    text-align: left;
 }
 
 .profile {
-    text-align: left;
     padding-right: 20px; /* Spacing between profile and content */
 }
-
-.right-side {
-    text-align: left;
-}
-
 
 .section-title {
     font-size: 2rem;
@@ -91,10 +86,12 @@ nav a:hover {
         flex-direction: column;
     }
 
-    .section-title, .section-content {
+    .profile, .right-side {
         width: 100%;
-        text-align: left;
+    }
+
+    .profile {
+        padding-right: 0; /* Reset padding for mobile view */
     }
 }
-
 /* Add other styles as previously defined */
