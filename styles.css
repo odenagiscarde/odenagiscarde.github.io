@@ -77,7 +77,7 @@ section {
     font-size: 2rem;
     font-weight: bold;
     text-align: right; /* Align the section title to the right */
-    margin-right: 2rem; /* Spacing between title and content */
+    margin-bottom: 20px; /* Spacing between title and profile */
 }
 
 .section-content {
