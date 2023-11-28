@@ -59,20 +59,20 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.left-side, .right-side {
+.profile, .right-side {
     width: 50%; /* Adjust as needed */
 }
 
-.left-side {
-    text-align: right;
-}
-
 .profile {
-    text-align: left; /* Adjust profile text alignment */
-    padding-top: 20px; /* Space between title and profile */
+    text-align: left;
+    padding-right: 20px; /* Spacing between profile and content */
 }
 
-/* Other styles remain the same */
+.right-side {
+    text-align: left;
+}
+
+
 .section-title {
     font-size: 2rem;
     font-weight: bold;
