@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+/* General styles */
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ body {
     min-width: 320px;
 }
 
+/* Navigation styles */
 nav {
     background-color: #333;
     color: #fff;
@@ -37,6 +38,7 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Profile picture styles */
 .profile-pic {
     width: 190px;
     height: 190px;
@@ -48,80 +50,55 @@ nav a:hover {
     border: 3px solid #ffffff;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.profile, .description {
-    text-align: center;
-    padding: 20px;
-}
-
-#about, #cv, #research {
+/* Section styles */
+.section {
     margin: 2rem;
     padding: 1rem;
     background-color: #fff;
     border-radius: 5px;
 }
 
-section {
-    padding: 50px 0; /* Adjust padding as needed */
-}
-
 .section-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 20px; /* Spacing between title and profile */
+    margin-bottom: 20px;
 }
 
+.section-body {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile {
+    flex: 0 0 20%; /* Adjust width as needed */
+    text-align: center;
+    padding: 20px;
+}
 
 .section-content {
-    width: 80%; /* Adjust the width as needed */
+    flex: 1;
+    padding: 20px;
 }
 
-
-.wrapper {
-    min-width: 320px;
+/* Specific styles for the About section */
+#about .section-body {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-@media screen and (max-width: 320px) {
-    .container, .nav-links, .profile, .description {
+#about .profile, #about .description {
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .section-body {
         flex-direction: column;
         align-items: center;
     }
 
-    .wrapper, section, nav, .profile-pic, .container {
-        padding: 10px;
-        margin: 10px;
-    }
-
-    h1, h2, h3, p, a {
-        font-size: smaller;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    .section-title, .section-content {
+    .profile, .section-content {
         width: 100%;
-        text-align: left;
-        margin: 0;
-    }
-
-    .section-title {
-        margin-bottom: 20px; /* Spacing between title and content on small screens */
     }
 }
+
