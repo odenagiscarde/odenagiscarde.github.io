@@ -59,13 +59,14 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.profile, .right-side {
-    width: 30%; /* Adjust this to change the split ratio */
-    text-align: left;
+.profile {
+    width: 20%; /* Adjusted width */
+    text-align: right; /* Align text to the right */
+    padding-right: 20px; /* Adjust padding as needed */
 }
 
-.profile {
-    padding-right: 20px; /* Spacing between profile and content */
+.right-side {
+    width: 40%; /* Adjusted width to fill remaining space */
 }
 
 .section-title {
