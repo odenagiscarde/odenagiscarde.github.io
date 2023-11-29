@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 .right-side {
-    width: 60%; /* Adjusted width to fill remaining space */
+    width: 100%; /* Adjusted width to fill remaining space */
 }
 
 .section-title {
