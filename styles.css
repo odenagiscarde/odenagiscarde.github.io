@@ -85,6 +85,10 @@ nav a:hover {
     text-align: justify;
 }
 
+.profile p {
+    text-align: center;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
     .section {
