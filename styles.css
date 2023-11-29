@@ -60,9 +60,10 @@ nav a:hover {
 }
 
 .profile {
+    display: flex;
     width: 60%; /* Adjusted width */
     text-align: center; /* Align text to the right */
-    padding-right: 20px; /* Adjust padding as needed */
+    padding-right: 1rem; /* Adjust padding as needed */
 }
 
 .right-side {
