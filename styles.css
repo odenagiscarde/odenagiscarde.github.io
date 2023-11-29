@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .profile, .right-side {
-    width: 50%; /* Adjust this to change the split ratio */
+    width: 30%; /* Adjust this to change the split ratio */
     text-align: left;
 }
 
