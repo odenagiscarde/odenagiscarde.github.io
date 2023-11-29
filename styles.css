@@ -71,7 +71,7 @@ nav a:hover {
 .section-title {
     font-size: 2rem;
     font-weight: bold;
-    width: 40%; /* Adjust as needed */
+    width: 30%; /* Adjust as needed */
     padding-right: 20px; /* Spacing between title and content */
     text-align: right; /* Aligns the text to the right of the title area */
 }
