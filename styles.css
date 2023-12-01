@@ -27,6 +27,17 @@ nav {
     align-items: center;
 }
 
+/* Adjust these paddings to move the elements towards the middle */
+.nav-header {
+    padding-right: 20%; /* Increase right padding to push towards center */
+}
+
+.nav-links {
+    padding-left: 20%; /* Increase left padding to push towards center */
+}
+
+
+
 nav a {
     color: #fff;
     margin: 0 10px;
