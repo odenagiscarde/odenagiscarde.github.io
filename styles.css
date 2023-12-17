@@ -39,13 +39,12 @@ nav {
 
 /* Adjust these paddings to move the elements towards the middle */
 .nav-header {
-    padding-right: 20%; /* Increase right padding to push towards center */
+    margin-left: 15%; /* Adjust this value as needed for the left side */
 }
 
 .nav-links {
-    padding-left: 20%; /* Increase left padding to push towards center */
+    margin-right: 15%; /* Adjust this value as needed for the right side */
 }
-
 
 
 nav a {
