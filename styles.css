@@ -73,21 +73,27 @@ nav a:hover {
 /* Section styles */
 .section {
     display: flex;
-    margin: 4rem 20rem;
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    margin: 4rem 20rem; /* Horizontal margin */
     padding: 1rem;
     background-color: #fff;
     border-radius: 5px;
 }
 
+.profile, .right-side {
+    flex: 1; /* Each takes up equal space */
+    min-width: 300px; /* Minimum width before wrapping */
+}
+
 .profile {
-    width: 30%; /* Adjusted width */
-    text-align: center; /* Align text to the right */
-    padding-right: 1rem; /* Adjust padding as needed */
+    text-align: center;
+    padding-right: 1rem; /* Spacing between profile and right-side */
 }
 
 .right-side {
-    width: 100%; /* Adjusted width to fill remaining space */
+    text-align: justify; /* Adjust text alignment as needed */
 }
+
 
 .section-title {
     font-size: 2rem;
@@ -109,19 +115,25 @@ nav a:hover {
     text-align: center;
 }
 
+
 /* Responsive adjustments for smaller screens */
+@media screen and (max-width: 1024px) {
+    .section {
+        margin: 4rem 10rem; /* Reduce horizontal margin for medium screens */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .section {
-        flex-direction: column;
-        margin: 2rem 2rem; /* Smaller margin for smaller screens */
+        margin: 2rem; /* Smaller margin for smaller screens */
     }
 
     .profile, .right-side {
-        width: 100%;
+        width: 100%; /* Full width on smaller screens */
+        text-align: center; /* Center align text for smaller screens */
     }
 
     .profile {
         padding-right: 0; /* Reset padding for mobile view */
     }
 }
-/* Continue with other styles as previously defined */
