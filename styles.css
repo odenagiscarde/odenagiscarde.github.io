@@ -81,14 +81,16 @@ nav a:hover {
 }
 
 .profile, .right-side {
-    flex: 1; /* Each takes up equal space */
-    min-width: 300px; /* Minimum width before wrapping */
+    flex: 1 1 300px; /* Flex grow, flex shrink, and flex-basis */
+    max-width: 50%; /* Maximum width */
 }
+
 
 .profile {
     text-align: center;
     padding-right: 1rem; /* Spacing between profile and right-side */
 }
+
 
 .right-side {
     text-align: justify; /* Adjust text alignment as needed */
@@ -116,23 +118,29 @@ nav a:hover {
 }
 
 
-/* Responsive adjustments for smaller screens */
+/* Media Query for Medium Screens (like laptops) */
 @media screen and (max-width: 1024px) {
     .section {
         margin: 4rem 10rem; /* Reduce horizontal margin for medium screens */
     }
+    .profile, .right-side {
+        max-width: 100%; /* Full width on smaller screens */
+    }
 }
 
+/* Media Query for Small Screens (like tablets) */
 @media screen and (max-width: 768px) {
     .section {
-        margin: 2rem; /* Smaller margin for smaller screens */
+        margin: 4rem 5rem; /* Further reduce margin for small screens */
     }
+}
 
-    .profile, .right-side {
-        width: 100%; /* Full width on smaller screens */
-        text-align: center; /* Center align text for smaller screens */
+/* Media Query for Extra Small Screens (like mobile phones) */
+@media screen and (max-width: 480px) {
+    .section {
+        margin: 2rem; /* Smaller margin for extra small screens */
+        flex-direction: column;
     }
-
     .profile {
         padding-right: 0; /* Reset padding for mobile view */
     }
