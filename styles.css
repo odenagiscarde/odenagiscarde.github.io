@@ -2,7 +2,7 @@
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Updated font family */
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -10,11 +10,10 @@ body {
     color: #333;
     line-height: 1.6;
     min-width: 320px;
-    padding-top: 70px; /* Adjust this value based on the height of your nav bar */
+    padding-top: 70px; /* Ensure navigation bar does not overlap content */
 }
 
 /* Navigation styles */
-
 nav {
     background-color: #333;
     color: #fff;
@@ -22,30 +21,25 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 20px;
-    position: fixed; /* Fixed position */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    right: 0; /* Align to the right */
-    z-index: 1000; /* Ensure it stays on top of other elements */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
-
-
-
 
 .nav-header, .nav-links {
     display: flex;
     align-items: center;
 }
 
-/* Adjust these paddings to move the elements towards the middle */
 .nav-header {
-    margin-left: 15%; /* Adjust this value as needed for the left side */
+    margin-left: 10%; /* Adjust this value as needed */
 }
 
 .nav-links {
-    margin-right: 15%; /* Adjust this value as needed for the right side */
+    margin-right: 10%; /* Adjust this value as needed */
 }
-
 
 nav a {
     color: #fff;
@@ -73,75 +67,48 @@ nav a:hover {
 /* Section styles */
 .section {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap as needed */
-    margin: 4rem 20rem; /* Horizontal margin */
+    margin: 4rem auto; /* Centered with auto margins */
     padding: 1rem;
     background-color: #fff;
     border-radius: 5px;
 }
 
-.profile, .right-side {
-    flex: 1 1 300px; /* Flex grow, flex shrink, and flex-basis */
-    max-width: 50%; /* Maximum width */
-}
-
-
 .profile {
+    flex-basis: 30%; /* Adjust the initial width */
     text-align: center;
-    padding-right: 1rem; /* Spacing between profile and right-side */
 }
-
 
 .right-side {
-    text-align: justify; /* Adjust text alignment as needed */
-}
-
-
-.section-title {
-    font-size: 2rem;
-    font-weight: bold;
-    width: 30%; /* Adjust as needed */
-    padding-right: 20px; /* Spacing between title and content */
-    text-align: right; /* Aligns the text to the right of the title area */
-}
-
-.section-content {
-    width: 100%; /* Adjust as needed */
-}
-
-.section p {
+    flex-basis: 70%; /* Adjust the initial width */
     text-align: justify;
 }
 
-.profile p {
-    text-align: center;
-}
-
-
-/* Media Query for Medium Screens (like laptops) */
+/* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .section {
-        margin: 4rem 10rem; /* Reduce horizontal margin for medium screens */
+        flex-direction: column;
+        margin: 4rem 2rem; /* Reduced horizontal margin */
     }
     .profile, .right-side {
-        max-width: 100%; /* Full width on smaller screens */
+        flex-basis: 100%; /* Full width */
     }
 }
 
-/* Media Query for Small Screens (like tablets) */
 @media screen and (max-width: 768px) {
     .section {
-        margin: 4rem 5rem; /* Further reduce margin for small screens */
+        margin: 2rem 1rem; /* Further reduced margin */
     }
 }
 
-/* Media Query for Extra Small Screens (like mobile phones) */
 @media screen and (max-width: 480px) {
-    .section {
-        margin: 2rem; /* Smaller margin for extra small screens */
-        flex-direction: column;
+    body {
+        padding-top: 60px; /* Adjust for smaller nav bar */
     }
-    .profile {
-        padding-right: 0; /* Reset padding for mobile view */
+    nav {
+        padding: 0.5rem 10px; /* Reduced padding */
+    }
+    .nav-header, .nav-links {
+        margin-left: 5%; /* Adjusted margins */
+        margin-right: 5%;
     }
 }
