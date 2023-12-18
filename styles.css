@@ -13,6 +13,19 @@ body {
     padding-top: 70px; /* Ensure navigation bar does not overlap content */
 }
 
+body, p {
+    line-height: 1.6; /* Adjust this value as needed */
+}
+
+.subsection {
+    margin-bottom: 30px; /* Adds space below each subsection */
+}
+
+p {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+
 /* Navigation styles */
 nav {
     background-color: #2a4d69; /* Deep navy blue */
