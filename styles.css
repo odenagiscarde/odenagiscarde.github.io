@@ -107,7 +107,11 @@ nav a:hover {
     flex-basis: 100%; /* Full width for the right side content in Home section */
 }
 
-
+.wrapper {
+    margin: 0 auto; /* Centers the wrapper on the page */
+    max-width: 90%; /* Maximum width of the wrapper */
+    padding: 2rem; /* Padding around the content inside the wrapper */
+}
 
 /* Responsive adjustments */
 @media screen and (max-width: 1024px) {
@@ -124,10 +128,12 @@ nav a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .section {
-        margin: 2rem 1rem; /* Further reduced margin */
+    .wrapper {
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 1rem; /* Smaller padding for smaller screens */
     }
 }
+
 
 @media screen and (max-width: 480px) {
     body {
