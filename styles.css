@@ -105,6 +105,10 @@ a, .highlight {
     text-align: justify;
 }
 
+.nav-header h1 {
+    color: #fff; /* This sets the color of your name to white */
+}
+
 /* Adjustments for the Home section */
 #home .profile {
     flex-basis: 100%; /* Full width for the profile in Home section */
@@ -117,7 +121,7 @@ a, .highlight {
 
 .wrapper {
     margin: 0 auto; /* Centers the wrapper on the page */
-    max-width: 80%; /* Maximum width of the wrapper */
+    max-width: 75%; /* Maximum width of the wrapper */
     padding: 2rem; /* Padding around the content inside the wrapper */
 }
 
@@ -151,7 +155,7 @@ a, .highlight {
         padding: 0.5rem 10px; /* Reduced padding */
     }
     .nav-header, .nav-links {
-        margin-left: 5%; /* Adjusted margins */
-        margin-right: 5%;
+        margin-left: 2%; /* Adjusted margins */
+        margin-right: 2%;
     }
 }
