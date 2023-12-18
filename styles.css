@@ -109,7 +109,7 @@ nav a:hover {
 
 .wrapper {
     margin: 0 auto; /* Centers the wrapper on the page */
-    max-width: 90%; /* Maximum width of the wrapper */
+    max-width: 85%; /* Maximum width of the wrapper */
     padding: 2rem; /* Padding around the content inside the wrapper */
 }
 
