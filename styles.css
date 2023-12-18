@@ -155,7 +155,7 @@ a, .highlight {
         padding: 0.5rem 10px; /* Reduced padding */
     }
     .nav-header, .nav-links {
-        margin-left: 2%; /* Adjusted margins */
-        margin-right: 2%;
+        margin-left: 5%; /* Adjusted margins */
+        margin-right: 5%;
     }
 }
