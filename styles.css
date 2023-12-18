@@ -78,6 +78,8 @@ nav a:hover {
     flex-basis: 30%; /* Width of the title area */
     text-align: right; /* Align the title to the right */
     padding-right: 20px; /* Spacing between title and content */
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Optional: if you want the titles to be bold */
 }
 
 .section-content {
