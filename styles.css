@@ -135,6 +135,19 @@ a, .highlight {
     padding: 2rem; /* Padding around the content inside the wrapper */
 }
 
+.cv-container {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Maximum width */
+    margin: auto; /* Center align */
+    padding: 10px; /* Optional padding */
+}
+
+.cv-container iframe {
+    width: 100%; /* Full width of the container */
+    height: 1120px; /* Adjust based on your CV's aspect ratio */
+}
+
+
 /* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .section {
@@ -153,6 +166,9 @@ a, .highlight {
     .wrapper {
         max-width: 100%; /* Full width on smaller screens */
         padding: 1.5rem; /* Smaller padding for smaller screens */
+    }
+    .cv-container iframe {
+        height: 800px; /* Adjust height for smaller screens */
     }
 }
 
