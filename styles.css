@@ -145,6 +145,7 @@ a, .highlight {
 .cv-container iframe {
     width: 100%; /* Full width of the container */
     height: 1120px; /* Adjust based on your CV's aspect ratio */
+    border: none; /* Optional: removes the border around the iframe */
 }
 
 
@@ -183,5 +184,8 @@ a, .highlight {
     .nav-header, .nav-links {
         margin-left: 5%; /* Adjusted margins */
         margin-right: 5%;
+    }
+     .cv-container iframe {
+        height: 600px; /* Even smaller height for mobile devices */
     }
 }
