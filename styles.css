@@ -149,16 +149,6 @@ a, .highlight {
 }
 
 
-.profile a {
-    color: inherit; /* Keeps the link color consistent with the surrounding text */
-    text-decoration: none; /* Removes underline from links */
-}
-
-.profile a i {
-    margin-right: 5px; /* Adds spacing between icons and text */
-}
-
-
 /* Responsive adjustments */
 @media screen and (max-width: 1024px) {
     .section {
