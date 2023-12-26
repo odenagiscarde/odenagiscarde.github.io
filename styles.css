@@ -88,7 +88,7 @@ a, .highlight {
     margin: auto;
     background-size: cover;
     background-position: center;
-    border: 3px solid #2a4d69;
+    border: 3px solid #89bdd3;
 }
 
 /* Section styles */
@@ -219,6 +219,7 @@ a, .highlight {
     .profile {
     text-align: center;
 }
+    
 }
 
 
