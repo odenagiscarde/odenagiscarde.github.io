@@ -81,14 +81,14 @@ a, .highlight {
 
 /* Profile picture styles */
 .profile-pic {
-    width: 190px;
-    height: 190px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
     display: block;
     margin: auto;
     background-size: cover;
     background-position: center;
-    border: 3px solid #ffffff;
+    border: 3px solid #2a4d69;
 }
 
 /* Section styles */
