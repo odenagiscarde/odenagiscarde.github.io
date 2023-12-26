@@ -81,8 +81,8 @@ a, .highlight {
 
 /* Profile picture styles */
 .profile-pic {
-    width: 230px;
-    height: 230px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     display: block;
     margin: auto;
@@ -196,6 +196,10 @@ a, .highlight {
 .profile {
     text-align: center;
 }
+     .profile-pic {
+        width: 225px; /* Slightly smaller size for medium screens */
+        height: 225px;
+    }
 
 }
 
@@ -219,7 +223,10 @@ a, .highlight {
     .profile {
     text-align: center;
 }
-    
+     .profile-pic {
+        width: 210px; /* Slightly smaller size for medium screens */
+        height: 210px;
+    }
 }
 
 
@@ -250,4 +257,8 @@ a, .highlight {
     .profile {
     text-align: center;
 }
+     .profile-pic {
+        width: 195px; /* Slightly smaller size for medium screens */
+        height: 195px;
+    }
 }
