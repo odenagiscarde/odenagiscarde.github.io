@@ -158,7 +158,8 @@ a, .highlight {
 }
 
 .icon {
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 30px; /* Adjust the size as needed */
+    color: #FF7F50; /* Coral color for Twitter */
 }
 
 
