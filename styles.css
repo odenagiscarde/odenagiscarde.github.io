@@ -47,6 +47,11 @@ nav {
     align-items: center;
 }
 
+.nav-header h1, h1, h2, h3 {
+    font-size: 24px; /* Default size for large screens */
+}
+
+
 .nav-header {
     margin-left: 10%; /* Adjust this value as needed */
 }
@@ -185,6 +190,9 @@ a, .highlight {
     .icon {
         font-size: 26px; /* Slightly smaller icons for medium screens */
     }
+    .nav-header h1, h1, h2, h3 {
+    font-size: 22px; /* Default size for large screens */
+}
 
 }
 
@@ -202,6 +210,9 @@ a, .highlight {
         .icon {
         font-size: 22px; /* Slightly smaller icons for medium screens */
     }
+    .nav-header h1, h1, h2, h3 {
+    font-size: 20px; /* Default size for large screens */
+}
 }
 
 
@@ -226,4 +237,7 @@ a, .highlight {
         .icon {
         font-size: 18px; /* Even smaller icons for extra small screens */
     }
+    .nav-header h1, h1, h2, h3 {
+    font-size: 18px; /* Default size for large screens */
+}
 }
