@@ -157,6 +157,10 @@ a, .highlight {
     margin-right: 5px; /* Adds spacing between icon and text */
 }
 
+.icon {
+    font-size: 24px; /* Adjust the size as needed */
+}
+
 
 /* Responsive adjustments */
 @media screen and (max-width: 1024px) {
