@@ -48,7 +48,7 @@ nav {
 }
 
 .nav-header h1, h1, h2, h3 {
-    font-size: 24px; /* Default size for large screens */
+    font-size: 26px; /* Default size for large screens */
 }
 
 
@@ -191,7 +191,10 @@ a, .highlight {
         font-size: 26px; /* Slightly smaller icons for medium screens */
     }
     .nav-header h1, h1, h2, h3 {
-    font-size: 22px; /* Default size for large screens */
+    font-size: 24.5px; /* Default size for large screens */
+}
+.profile {
+    text-align: center;
 }
 
 }
@@ -211,7 +214,10 @@ a, .highlight {
         font-size: 22px; /* Slightly smaller icons for medium screens */
     }
     .nav-header h1, h1, h2, h3 {
-    font-size: 20px; /* Default size for large screens */
+    font-size: 23px; /* Default size for large screens */
+}
+    .profile {
+    text-align: center;
 }
 }
 
@@ -238,6 +244,9 @@ a, .highlight {
         font-size: 18px; /* Even smaller icons for extra small screens */
     }
     .nav-header h1, h1, h2, h3 {
-    font-size: 18px; /* Default size for large screens */
+    font-size: 21.5px; /* Default size for large screens */
+}
+    .profile {
+    text-align: center;
 }
 }
