@@ -123,10 +123,10 @@ a, .highlight {
 }
 
 .profile {
-    flex-basis: 30%; /* Adjust the initial width */
-    text-align: center;
+    flex-basis: 30%; /* Full width for the profile in Home section */
+    text-align: center; /* Centers the content */
+    /* Rest of your styles... */
 }
-
 .right-side {
     flex-basis: 70%; /* Adjust the initial width */
     text-align: justify;
