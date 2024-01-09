@@ -192,9 +192,10 @@ a, .highlight {
     .section-title, .section-content {
         flex-basis: 100%; /* Full width */
     }
-    #home .profile, #home .right-side {
+      .profile, .right-side {
         flex-basis: 100%; /* Full width */
     }
+    
     .icon {
         font-size: 26px; /* Slightly smaller icons for medium screens */
     }
