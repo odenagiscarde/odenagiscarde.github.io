@@ -234,7 +234,7 @@ a, .highlight {
     }
     .wrapper {
         max-width: 100%; /* Full width on smaller screens */
-        padding: 1.5rem; /* Smaller padding for smaller screens */
+        padding: 1.3rem; /* Smaller padding for smaller screens */
     }
     .cv-container iframe {
         height: 800px; /* Adjust height for smaller screens */
