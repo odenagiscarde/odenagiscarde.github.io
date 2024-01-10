@@ -72,15 +72,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2.3em; /* Adjust as needed */
+    font-size: 2em; /* Adjust as needed */
 }
 
 h2 {
-    font-size: 1.8em; /* Adjust as needed */
+    font-size: 1.7em; /* Adjust as needed */
 }
 
 h3 {
-    font-size: 1.3em; /* Adjust as needed */
+    font-size: 1.4em; /* Adjust as needed */
 }
 
 a, .highlight {
@@ -201,7 +201,7 @@ a, .highlight {
         font-size: 26px; /* Slightly smaller icons for medium screens */
     }
         h1 {
-        font-size: 2em; /* Slightly smaller */
+        font-size: 1.9em; /* Slightly smaller */
     }
 
     h2 {
@@ -209,7 +209,7 @@ a, .highlight {
     }
 
     h3 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 .profile {
@@ -247,11 +247,11 @@ a, .highlight {
     }
 
     h2 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .profile {
     text-align: center;
@@ -296,11 +296,11 @@ a, .highlight {
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 
     h3 {
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .profile {
     text-align: center;
