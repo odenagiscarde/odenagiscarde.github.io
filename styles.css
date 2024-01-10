@@ -274,7 +274,10 @@ a, .highlight {
      body, h1, h2, h3, p, a {
         font-size: 12px; /* Even smaller text for extra small screens */
     }
-
+  .wrapper {
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 1rem; /* Smaller padding for smaller screens */
+    }
     nav {
         padding: 0.5rem 10px; /* Reduced padding */
     }
