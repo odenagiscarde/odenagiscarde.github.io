@@ -113,7 +113,7 @@ a, .highlight {
     flex-basis: 20%; /* Width of the title area */
     text-align: right; /* Align the title to the right */
     padding-right: 20px; /* Spacing between title and content */
-    font-size: 2rem; /* Adjust the font size as needed */
+    font-size: 2.2rem; /* Adjust the font size as needed */
     font-weight: bold; /* Optional: if you want the titles to be bold */
 }
 
@@ -196,6 +196,11 @@ a, .highlight {
       .profile, .right-side {
         flex-basis: 100%; /* Full width */
     }
+
+        .section-title {
+        font-size: 2em; /* Slightly smaller size for medium screens */
+    }
+
     
     .icon {
         font-size: 26px; /* Slightly smaller icons for medium screens */
@@ -242,6 +247,10 @@ a, .highlight {
         .icon {
         font-size: 22px; /* Slightly smaller icons for medium screens */
     }
+        .section-title {
+        font-size: 1.8em; /* Slightly smaller size for medium screens */
+    }
+
     h1 {
         font-size: 1.6em; /* Further reduced size */
     }
@@ -291,6 +300,10 @@ a, .highlight {
         .icon {
         font-size: 18px; /* Even smaller icons for extra small screens */
     }
+        .section-title {
+        font-size: 1.7em; /* Slightly smaller size for medium screens */
+    }
+
   h1 {
         font-size: 1.5em; /* Smaller size */
     }
