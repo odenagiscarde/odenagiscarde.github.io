@@ -72,11 +72,11 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2em; /* Adjust as needed */
+    font-size: 1.8em; /* Adjust as needed */
 }
 
 h2 {
-    font-size: 1.7em; /* Adjust as needed */
+    font-size: 1.6em; /* Adjust as needed */
 }
 
 h3 {
@@ -201,11 +201,11 @@ a, .highlight {
         font-size: 26px; /* Slightly smaller icons for medium screens */
     }
         h1 {
-        font-size: 1.9em; /* Slightly smaller */
+        font-size: 1.7em; /* Slightly smaller */
     }
 
     h2 {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     h3 {
@@ -218,7 +218,7 @@ a, .highlight {
         display: block; /* Stack as block level */
     }
  .nav-header h1 {
-        font-size: 1.6em; /* Smaller font size for nav header */
+        font-size: 1.7em; /* Smaller font size for nav header */
     }
      .profile-pic {
         width: 225px; /* Slightly smaller size for medium screens */
@@ -243,22 +243,22 @@ a, .highlight {
         font-size: 22px; /* Slightly smaller icons for medium screens */
     }
     h1 {
-        font-size: 1.8em; /* Further reduced size */
+        font-size: 1.6em; /* Further reduced size */
     }
 
     h2 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     h3 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
     .profile {
     text-align: center;
 }
 
      .nav-header h1 {
-        font-size: 1.4em; /* Smaller font size for nav header */
+        font-size: 1.6em; /* Smaller font size for nav header */
     }
      .profile-pic {
         width: 210px; /* Slightly smaller size for medium screens */
@@ -292,7 +292,7 @@ a, .highlight {
         font-size: 18px; /* Even smaller icons for extra small screens */
     }
   h1 {
-        font-size: 1.6em; /* Smaller size */
+        font-size: 1.5em; /* Smaller size */
     }
 
     h2 {
@@ -300,7 +300,7 @@ a, .highlight {
     }
 
     h3 {
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .profile {
     text-align: center;
@@ -310,6 +310,6 @@ a, .highlight {
         height: 195px;
     }
      .nav-header h1 {
-        font-size: 1.2em; /* Smaller font size for nav header */
+        font-size: 1.5em; /* Smaller font size for nav header */
     }
 }
