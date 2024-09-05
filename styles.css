@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li, a {
 }
 
 body, h1, h2, h3, p, a {
-    font-size: 18px; /* Default text size for larger screens */
+    font-size: 17px; /* Default text size for larger screens */
 }
 
 body {
