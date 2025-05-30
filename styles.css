@@ -276,6 +276,7 @@ a, .highlight {
 }
 
 
+
 @media screen and (max-width: 480px) {
     body {
         padding-top: 60px; /* Adjust for smaller nav bar */
@@ -325,4 +326,9 @@ a, .highlight {
      .nav-header h1 {
         font-size: 1.5em; /* Smaller font size for nav header */
     }
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none !important;
 }
